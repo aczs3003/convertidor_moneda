@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Monedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertidor de Monedas</h1>
+        <div class="currency-converter">
+            <div class="input-group">
+                <label for="amount">Cantidad:</label>
+                <input type="text" id="amount" placeholder="Ingresa cantidad" />
+            </div>
+            <div class="input-group">
+                <label for="from-currency">De:</label>
+                <select id="from-currency">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="COP">Peso Colombiano (COP)</option>
+                    <option value="JPY">Yen Japonés (JPY)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                    <option value="CAD">Dólar Canadiense (CAD)</option>
+                    <option value="CHF">Franco Suizo (CHF)</option>
+                    <option value="CNY">Yuan Chino (CNY)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                    <!-- Agrega más opciones si es necesario -->
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="to-currency">A:</label>
+                <select id="to-currency">
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="COP">Peso Colombiano (COP)</option>
+                    <option value="JPY">Yen Japonés (JPY)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                    <option value="CAD">Dólar Canadiense (CAD)</option>
+                    <option value="CHF">Franco Suizo (CHF)</option>
+                    <option value="CNY">Yuan Chino (CNY)</option>
+                    <option value="MXN">Peso Mexicano (MXN)</option>
+                    <!-- Agrega más opciones si es necesario -->
+                </select>
+            </div>
+            <button id="convert-btn">Convertir</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
